@@ -184,7 +184,7 @@ const Activities = ({ handleNextStep, handlePrevStep }) => {
                   <div className="p-3 table-auto1 w-[179px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none">
                     {date}
                   </div>
-                </th>s
+                </th>
 
                 <th>
                   <div className="p-3 table-auto1 w-[179px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none">
