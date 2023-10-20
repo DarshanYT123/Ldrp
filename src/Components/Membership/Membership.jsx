@@ -65,6 +65,7 @@ const Membership = ({ handleNextStep, handlePrevStep }) => {
               value={selectoption}
               onChange={handleInputChange}
               //onBlur={validateOne}
+              tabIndex={1}
               className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
             >
               <option selected>Sem - 1</option>
@@ -95,7 +96,7 @@ const Membership = ({ handleNextStep, handlePrevStep }) => {
                 placeholder="Name Of Organisation"
                 className="hover:border-[2px] hover:border-[#159BD6] w-[233px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 required
-                tabindex="5"
+                tabIndex={2}
               />
             </div>
             <div className="flex flex-row">
@@ -115,7 +116,7 @@ const Membership = ({ handleNextStep, handlePrevStep }) => {
                 placeholder="Type"
                 className="hover:border-[2px] hover:border-[#159BD6] w-[113px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 required
-                tabindex="6"
+                tabIndex={3}
               />
             </div>
             <div className="flex flex-row">
@@ -135,7 +136,7 @@ const Membership = ({ handleNextStep, handlePrevStep }) => {
                 placeholder="Role"
                 className="hover:border-[2px] hover:border-[#159BD6] w-[123px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 required
-                tabindex="7"
+                tabIndex={4}
               />
             </div>
           </div>

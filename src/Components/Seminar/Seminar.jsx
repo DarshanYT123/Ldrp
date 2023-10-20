@@ -65,6 +65,7 @@ const Seminar = ({ handleNextStep, handlePrevStep }) => {
               value={selectoption}
               onChange={handleInputChange}
               //onBlur={validateOne}
+              tabIndex={1}
               className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
             >
               <option selected>12th</option>
@@ -89,10 +90,11 @@ const Seminar = ({ handleNextStep, handlePrevStep }) => {
                 value={activity}
                 onChange={handleInputChange}
                 //onBlur={validateOne}
+                tabIndex={2}
                 placeholder="Activity Name"
                 className="hover:border-[2px] hover:border-[#159BD6] w-[243px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 required
-                tabindex="5"
+               
               />
             </div>
             <div className="flex flex-row">
@@ -109,10 +111,11 @@ const Seminar = ({ handleNextStep, handlePrevStep }) => {
                 value={date}
                 onChange={handleInputChange}
                 //onBlur={validateOne}
+                tabIndex={3}
                 placeholder="DD/MM/YYYY"
                 className="hover:border-[2px] hover:border-[#159BD6] w-[133px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 required
-                tabindex="6"
+                
               />
             </div>
             <div className="flex flex-row">
@@ -132,7 +135,7 @@ const Seminar = ({ handleNextStep, handlePrevStep }) => {
                 placeholder="Place"
                 className="hover:border-[2px] hover:border-[#159BD6] w-[143px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 required
-                tabindex="7"
+                tabIndex={4}
               />
             </div>
           </div>

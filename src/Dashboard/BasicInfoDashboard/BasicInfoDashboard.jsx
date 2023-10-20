@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DragDropImage from "./DragDropImage";
 import FatherDragDrop from "./FatherDragDrop";
 import MotherDragDrop from "./MotherDragDrop";
-const Basicinfo = ({handleNextStep}) => {
+const BasicInfoDashboard = ({handleNextStep}) => {
   const [values, setValues] = React.useState({
     studentname: "",
     enrollmentno: "",
@@ -128,7 +128,7 @@ const Basicinfo = ({handleNextStep}) => {
 
   return (
     <>
-      <div className="absolute top-32 right-0 pr-10  py-5 max-h-[700px]  overflow-y-auto   ">
+      <div className="absolute top-8 right-0  px-20  py-5 max-h-[700px]  overflow-y-auto bg-white  ">
         <div className="flex justify-center  items-center">
           <h2 className="text-[color:var(--02,#47A5E4)] text-[20px] font-Raleway not-italic font-bold leading-[normal] tracking-[1.1px]">
             Basic Information
@@ -430,4 +430,4 @@ const Basicinfo = ({handleNextStep}) => {
   );
 };
 
-export default Basicinfo;
+export default BasicInfoDashboard;

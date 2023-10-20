@@ -15,6 +15,10 @@ import Seminar from "./Components/Seminar/Seminar";
 import Membership from "./Components/Membership/Membership";
 import Progressbar from "./Components/Progressbar/Progressbar";
 import Page from "./Components/Multistep/Page";
+import Dashboard from "./Dashboard/Dashboard/Dashboard";
+import Results from "./Dashboard/Results/Results";
+import SecondResults from "./Dashboard/Results/SecondResults";
+import MentoringForm from "./Dashboard/MentoringForm/MentoringForm";
 
 function App() {
   // for aos
@@ -55,6 +59,7 @@ function App() {
 
   return (
     <div className="App bg-[#F6F3F3] ">
+      <div>
       <div className="">
       <Navbar />
       </div>
@@ -63,43 +68,21 @@ function App() {
         <h2 className="text-[color:var(--black,#101010)] text-[14px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.28px] capitalize px-3">2 :00 pM , Sunday 15 Oct 2023</h2>
       </div>
       {/* <Progressbar/> */}
-      <div className="bg-white ">
-      <Page />
-      </div>
-      {/* <div className="py-3 flex justify-end ">
-        <h2 className="text-[color:var(--black,#101010)] text-[14px] font-Poppins not-italic font-semibold leading-[normal] tracking-[0.28px] capitalize">Last Login</h2>
-        <h2 className="text-[color:var(--black,#101010)] text-[14px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.28px] capitalize px-3">2 :00 pM , Sunday 15 Oct 2023</h2>
-      </div>
-     <div className="   px-3">
-      <Router>
-      <div className="flex  flex-row bg-white py-7  relative">
-      <div className="    ">
+      <div className=" ">
+        <Router>
+      <Routes>
+      <Route path="/" element={<Page />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      {/* <Route path="/form" element={<MentoringForm />} /> */}
 
-
-      <div className="horizontal   container mt-5 ">
-        <Stepper steps={steps} currentStep={currentStep} />
-
-        <div className="flex justify-center items-center ">
-          <UseContextProvider>{displayStep(currentStep)}</UseContextProvider>
-        </div>
-      </div>
-
-      {currentStep !== steps.length && (
-        <StepperControl
-          handleClick={handleClick}
-          currentStep={currentStep}
-          steps={steps}
-        />
-      )}
-    </div>
-      <div className="flex-1 pl-0  lg:pl-52 overflow-x-hidden">
-
-        <Routes>
-        </Routes>
-        </div>
-        </div>
+      {/* <Route path="/results" element={<Results />} /> */}
+      <Route path="/secondresults" element={<SecondResults />} />
+      {/* <Page /> */}
+      </Routes>
       </Router>
-      </div> */}
+      </div>
+      </div>
+      
     </div>
   );
 }

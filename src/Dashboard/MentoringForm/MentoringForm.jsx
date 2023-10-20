@@ -1,8 +1,13 @@
-import React, { useState } from "react";
-import DragDropImage from "./DragDropImage";
-import FatherDragDrop from "./FatherDragDrop";
-import MotherDragDrop from "./MotherDragDrop";
-const Basicinfo = ({handleNextStep}) => {
+import React, { useState,useEffect } from "react";
+// import DragDropImage from "./DragDropImage";
+// import FatherDragDrop from "./FatherDragDrop";
+// import MotherDragDrop from "./MotherDragDrop";
+const MentoringForm = ({handleNextStep}) => {
+    useEffect(() => {
+        document.title = "LDRP | Mentoring Form";
+        document.getElementById("header_title").innerHTML = "Mentoring Form";
+    
+      });
   const [values, setValues] = React.useState({
     studentname: "",
     enrollmentno: "",
@@ -128,7 +133,7 @@ const Basicinfo = ({handleNextStep}) => {
 
   return (
     <>
-      <div className="absolute top-32 right-0 pr-10  py-5 max-h-[700px]  overflow-y-auto   ">
+      <div className=" right-0 pr-10  py-5 max-h-[700px]  overflow-y-auto   ">
         <div className="flex justify-center  items-center">
           <h2 className="text-[color:var(--02,#47A5E4)] text-[20px] font-Raleway not-italic font-bold leading-[normal] tracking-[1.1px]">
             Basic Information
@@ -204,9 +209,9 @@ const Basicinfo = ({handleNextStep}) => {
           </div>
           {/* PHOTOS ADD */}
           <div className="flex gap-x-44 px-10 flex-row  items-center py-4">
-            <DragDropImage />
+            {/* <DragDropImage />
             <FatherDragDrop />
-            <MotherDragDrop />
+            <MotherDragDrop /> */}
            
           </div>
           {/* MENTOR ADD */}
@@ -430,4 +435,4 @@ const Basicinfo = ({handleNextStep}) => {
   );
 };
 
-export default Basicinfo;
+export default MentoringForm;

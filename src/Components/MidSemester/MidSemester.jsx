@@ -136,6 +136,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="Computer"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={1}
                     />
                     <input
                       type="text"
@@ -146,6 +147,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={2}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -158,6 +160,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject2"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={3}
                     />
                     <input
                       type="text"
@@ -168,6 +171,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={4}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -180,6 +184,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={5}
                     />
                     <input
                       type="text"
@@ -190,6 +195,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={6}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -202,6 +208,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={7}
                     />
                     <input
                       type="text"
@@ -212,6 +219,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="60"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={8}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -224,6 +232,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={9}
                     />
                     <input
                       type="text"
@@ -234,6 +243,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="65"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={10}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -246,6 +256,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={11}
                     />
                     <input
                       type="text"
@@ -256,6 +267,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="45"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={12}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -268,6 +280,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={13}
                     />
                     <input
                       type="text"
@@ -278,6 +291,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="45"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={14}
                     />
                   </td>
                 </div>
@@ -291,6 +305,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={15}
                   />
                   <input
                     type="text"
@@ -301,6 +316,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="80"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={16}
                   />
                 </th>
               </tr>
@@ -319,6 +335,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject1"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={17}
                     />
                     <input
                       type="text"
@@ -330,6 +347,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]   focus:outline-none"
                       required
+                      tabIndex={18}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -342,6 +360,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subjet2"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={19}
                     />
                     <input
                       type="text"
@@ -352,6 +371,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="40"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={20}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -364,6 +384,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={21}
                     />
                     <input
                       type="text"
@@ -374,6 +395,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={22}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -386,6 +408,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={23}
                     />
                     <input
                       type="text"
@@ -396,6 +419,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="60"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={24}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -408,6 +432,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={25}
                     />
                     <input
                       type="text"
@@ -418,6 +443,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={26}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -430,6 +456,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={27}
                     />
                     <input
                       type="text"
@@ -440,6 +467,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={28}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -452,6 +480,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={29}
                     />
                     <input
                       type="text"
@@ -462,6 +491,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={30}
                     />
                   </td>
                 </div>
@@ -475,6 +505,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark2"
                     className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={31}
                   />
                   <input
                     type="text"
@@ -485,6 +516,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="40"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                     required
+                    tabIndex={32}
                   />
                 </th>
               </tr>
@@ -503,6 +535,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject1"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={33}
                     />
                     <input
                       type="text"
@@ -513,6 +546,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={34}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -525,6 +559,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject2"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={35}
                     />
                     <input
                       type="text"
@@ -535,6 +570,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="60"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={36}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -547,6 +583,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={37}
                     />
                     <input
                       type="text"
@@ -557,6 +594,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={38}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -569,6 +607,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={39}
                     />
                     <input
                       type="text"
@@ -579,6 +618,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={40}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -591,6 +631,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={41}
                     />
                     <input
                       type="text"
@@ -601,6 +642,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="90"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={42}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -613,6 +655,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={43}
                     />
                     <input
                       type="text"
@@ -623,6 +666,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="100"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={44}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -635,6 +679,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={45}
                     />
                     <input
                       type="text"
@@ -645,6 +690,8 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={46}
+                      
                     />
                   </td>
                 </div>
@@ -658,6 +705,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark3"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={47}
                   />
                   <input
                     type="text"
@@ -669,6 +717,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="150"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={48}
                   />
                 </th>
               </tr>
@@ -687,6 +736,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject1"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={49}
                     />
                     <input
                       type="text"
@@ -697,6 +747,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]   focus:outline-none"
                       required
+                      tabIndex={50}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -709,6 +760,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject2"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={51}
                     />
                     <input
                       type="text"
@@ -719,6 +771,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={52}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -731,6 +784,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={53}
                     />
                     <input
                       type="text"
@@ -741,6 +795,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="90"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={54}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -753,6 +808,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={55}
                     />
                     <input
                       type="text"
@@ -763,6 +819,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className=" p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={56}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -775,6 +832,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={57}
                     />
                     <input
                       type="text"
@@ -785,6 +843,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={58}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -797,6 +856,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={59}
                     />
                     <input
                       type="text"
@@ -807,6 +867,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={60}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -819,6 +880,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={61}
                     />
                     <input
                       type="text"
@@ -829,6 +891,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={62}
                     />
                   </td>
                 </div>
@@ -842,6 +905,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark4"
                     className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={63}
                   />
                   <input
                     type="text"
@@ -852,6 +916,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="150"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                     required
+                    tabIndex={64}
                   />
                 </th>
               </tr>
@@ -870,6 +935,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject1"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={65}
                     />
                     <input
                       type="text"
@@ -880,6 +946,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={66}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -892,6 +959,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject2"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={67}
                     />
                     <input
                       type="text"
@@ -902,6 +970,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="56"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={68}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -914,6 +983,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={69}
                     />
                     <input
                       type="text"
@@ -924,6 +994,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="86"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={70}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -936,6 +1007,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={71}
                     />
                     <input
                       type="text"
@@ -946,6 +1018,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="95"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={72}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -958,6 +1031,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={73}
                     />
                     <input
                       type="text"
@@ -968,6 +1042,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="75"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={74}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -980,6 +1055,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={75}
                     />
                     <input
                       type="text"
@@ -990,6 +1066,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="65"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={76}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1002,6 +1079,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={77}
                     />
                     <input
                       type="text"
@@ -1012,6 +1090,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="75"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={78}
                     />
                   </td>
                 </div>
@@ -1025,6 +1104,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark5"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={79}
                   />
                   <input
                     type="text"
@@ -1032,6 +1112,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="150"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={80}
                   />
                 </th>
               </tr>
@@ -1050,6 +1131,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject1"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={81}
                     />
                     <input
                       type="text"
@@ -1060,6 +1142,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]   focus:outline-none"
                       required
+                      tabIndex={82}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1072,6 +1155,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject2"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={83}
                     />
                     <input
                       type="text"
@@ -1082,6 +1166,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="62"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={84}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1094,6 +1179,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={85}
                     />
                     <input
                       type="text"
@@ -1104,6 +1190,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={86}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1116,6 +1203,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={87}
                     />
                     <input
                       type="text"
@@ -1126,6 +1214,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="35"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={88}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1138,6 +1227,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={89}
                     />
                     <input
                       type="text"
@@ -1148,6 +1238,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="75"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={90}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1160,6 +1251,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={91}
                     />
                     <input
                       type="text"
@@ -1170,6 +1262,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="85"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={92}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1182,6 +1275,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={93}
                     />
                     <input
                       type="text"
@@ -1192,6 +1286,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="95"
                       className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                       required
+                      tabIndex={94}
                     />
                   </td>
                 </div>
@@ -1205,6 +1300,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark6"
                     className="p-3 table-auto1 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={95}
                   />
                   <input
                     type="text"
@@ -1215,6 +1311,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="150"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#F5F5F5]    focus:outline-none"
                     required
+                    tabIndex={96}
                   />
                 </th>
               </tr>
@@ -1233,6 +1330,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject1"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={97}
                     />
                     <input
                       type="text"
@@ -1243,6 +1341,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="70"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={98}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1255,6 +1354,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject2"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={99}
                     />
                     <input
                       type="text"
@@ -1265,6 +1365,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="85"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={100}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1277,6 +1378,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject3"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={101}
                     />
                     <input
                       type="text"
@@ -1287,6 +1389,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="80"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={102}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1299,6 +1402,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject4"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={103}
                     />
                     <input
                       type="text"
@@ -1309,6 +1413,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="45"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={104}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1321,6 +1426,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject5"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={105}
                     />
                     <input
                       type="text"
@@ -1331,6 +1437,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="50"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={106}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1343,6 +1450,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject6"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={107}
                     />
                     <input
                       type="text"
@@ -1353,6 +1461,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="65"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={108}
                     />
                   </td>
                   <td className="flex flex-col">
@@ -1365,6 +1474,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="subject7"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={109}
                     />
                     <input
                       type="text"
@@ -1375,6 +1485,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                       placeholder="75"
                       className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                       required
+                      tabIndex={110}
                     />
                   </td>
                 </div>
@@ -1388,6 +1499,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="Reamark7"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={111}
                   />
                   <input
                     type="text"
@@ -1398,6 +1510,7 @@ const MidSemester = ({handleNextStep,handlePrevStep}) => {
                     placeholder="150"
                     className="p-3 w-[100px] h-[35px] border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={112}
                   />
                 </th>
               </tr>

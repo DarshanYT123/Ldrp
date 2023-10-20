@@ -5,16 +5,30 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
   const [values, setValues] = React.useState({
 
     semester:"",       
-    subjectcode1:"",subjectcode2:"",subjectcode3:"",subjectcode4:"",subjectcode5:"",
-    subjectcode6:"",subjectcode7:"",
-    grade1:"",grade2:"",  grade3:"",grade4:"",grade5:"",grade6:"",grade7:"", grade8:"",
-    grade9:"",grade10:"", grade11:"",grade12:"",grade13:"",grade14:"",grade15:"",
-    grade16:"", grade17:"", grade18:"",grade19:"",grade20:"",grade21:"",grade22:"",
-    grade23:"",grade24:"",grade25:"", grade26:"", grade27:"",grade28:"",
-    years1:"",  years2:"", years3:"",years4:"",  years5:"", years6:"",years7:"", years8:"",
-    years9:"", years10:"",years11:"",years12:"",years13:"",years14:"",years15:"",
-    years16:"",years17:"",years18:"",years19:"",years20:"",years21:"",
-    reamark1:"", reamark2:"", reamark3:"", reamark4:"", reamark5:"", reamark6:"", reamark7:"",
+    subjectcode1:"",grade1:"", years1:"",grade2:"",years2:"", grade3:"",years3:"",grade4:"",
+    reamark1:"",
+    
+    subjectcode2:"", grade5:"",years4:"",grade6:"", years5:"",grade7:"",years6:"",
+    grade8:"",reamark2:"",
+    
+    
+    subjectcode3:"",grade9:"", years7:"", grade10:"",years8:"",grade11:"",years9:"",
+    grade12:"", reamark3:"",
+    
+    
+    subjectcode4:"",grade13:"",years10:"", grade14:"",years11:"",grade15:"",years12:"",
+    grade16:"", reamark4:"",
+    
+    subjectcode5:"",grade17:"", years13:"",grade18:"",years14:"",grade19:"",years15:"",
+    grade20:"", reamark5:"",
+
+    subjectcode6:"", grade21:"",years16:"",grade22:"",years17:"",grade23:"",years18:"",
+    grade24:"",reamark6:"",
+    
+    subjectcode7:"", grade25:"", years19:"",grade27:"", years20:"",grade26:"",years21:"",
+
+    grade28:"", reamark7:"",
+      
 
   })
 
@@ -89,6 +103,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                 value={semester}
                 onChange={handleInputChange}
                 //onBlur={validateOne}
+                tabIndex={1}
 
                 className="w-[158px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
               >
@@ -140,6 +155,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode1"
                     className="p-3 table-auto1 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={2}
                   />
     </th>  
     <th>
@@ -152,6 +168,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={3}
                   />
     </th>  
     <th>
@@ -164,6 +181,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2013"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={4}
                   />
     </th>  
 
@@ -177,6 +195,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="B+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={5}
                   />
     </th>  
 
@@ -190,6 +209,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2013"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={6}
                   />
     </th>  
     <th>
@@ -202,6 +222,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className=" p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={7}
                   />
     </th>  
 
@@ -215,6 +236,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2014"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={8}
                   />
     </th>  
 
@@ -228,6 +250,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="D+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={9}
                   />
     </th>  
 
@@ -241,6 +264,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="R1"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={10}
                   />
     </th>  
       </tr>
@@ -255,6 +279,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode2"
                     className="p-3 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={11}
                   />
     </th>  
     <th>
@@ -267,6 +292,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={12}
                   />
     </th>  
     <th>
@@ -279,6 +305,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2015"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={13}
                   />
     </th>  
 
@@ -292,6 +319,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="B+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={14}
                   />
     </th>  
 
@@ -305,6 +333,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2016"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={15}
                   />
     </th>  
     <th>
@@ -317,6 +346,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={16}
                   />
     </th>  
 
@@ -330,6 +360,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2017"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={17}
                   />
     </th>  
 
@@ -343,6 +374,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="B+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={18}
                   />
     </th>  
 
@@ -356,6 +388,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="R2"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={19}
                   />
     </th>  
       </tr>
@@ -370,6 +403,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode3"
                     className="p-3 table-auto1 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={20}
                   />
     </th>  
     <th>
@@ -382,6 +416,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="B+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={21}
                   />
     </th>  
     <th>
@@ -394,6 +429,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2014"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={22}
                   />
     </th>  
 
@@ -407,6 +443,8 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={23}
+                    
                   />
     </th>  
 
@@ -420,6 +458,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2015"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={24}
                   />
     </th>  
     <th>
@@ -432,6 +471,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="E+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={25}
                   />
     </th>  
 
@@ -445,6 +485,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2014"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={26}
                   />
     </th>  
 
@@ -458,6 +499,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={27}
                   />
     </th>  
 
@@ -471,6 +513,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="R3"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={28}
                   />
     </th>  
       </tr>
@@ -485,6 +528,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode4"
                     className="p-3 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={29}
                   />
     </th>  
     <th>
@@ -497,6 +541,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={30}
                   />
     </th>  
     <th>
@@ -509,6 +554,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2015"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={31}
                   />
     </th>  
 
@@ -522,6 +568,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={32}
                   />
     </th>  
 
@@ -535,6 +582,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2016"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={33}
                   />
     </th>  
     <th>
@@ -547,6 +595,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="E+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={34}
                   />
     </th>  
 
@@ -560,6 +609,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2018"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={35}
                   />
     </th>  
 
@@ -573,6 +623,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="B+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={36}
                   />
     </th>  
 
@@ -586,6 +637,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="R4"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={37}
                   />
     </th>  
       </tr>
@@ -600,6 +652,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode5"
                     className="p-3 table-auto1 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={38}
                   />
     </th>  
     <th>
@@ -612,6 +665,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={39}
                   />
     </th>  
     <th>
@@ -624,6 +678,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2015"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={40}
                   />
     </th>  
 
@@ -637,6 +692,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="D+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={41}
                   />
     </th>  
 
@@ -650,6 +706,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2014"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={42}
                   />
     </th>  
     <th>
@@ -662,6 +719,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="E+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={43}
                   />
     </th>  
 
@@ -675,6 +733,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2011"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={44}
                   />
     </th>  
 
@@ -688,6 +747,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className= "p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={45}
                   />
     </th>  
 
@@ -701,6 +761,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="R5"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={46}
                   />
     </th>  
       </tr>
@@ -715,6 +776,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode6"
                     className="p-3 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={47}
                   />
     </th>  
     <th>
@@ -727,6 +789,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={48}
                   />
     </th>  
     <th>
@@ -739,6 +802,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2016"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={49}
                   />
     </th>  
 
@@ -752,6 +816,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={50}
                   />
     </th>  
 
@@ -765,6 +830,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2014"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={51}
                   />
     </th>  
     <th>
@@ -777,6 +843,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="E+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={52}
                   />
     </th>  
 
@@ -790,6 +857,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2018"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={53}
                   />
     </th>  
 
@@ -803,6 +871,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="D+"
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={54}
                   />
     </th>  
 
@@ -816,6 +885,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     //onBlur={validateOne}
                     className="p-3 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={55}
                   />
     </th>  
       </tr>
@@ -830,6 +900,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="subjectcode7"
                     className="p-3 table-auto1 w-[189px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={56}
                   />
     </th>  
     <th>
@@ -842,6 +913,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="A+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={57}
                   />
     </th>  
     <th>
@@ -854,6 +926,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2019"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={58}
                   />
     </th>  
 
@@ -867,6 +940,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="B+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={59}
                   />
     </th>  
 
@@ -880,6 +954,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2015"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={60}
                   />
     </th>  
     <th>
@@ -892,6 +967,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={61}
                   />
     </th>  
 
@@ -905,6 +981,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="2021"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={62}
                   />
     </th>  
 
@@ -918,6 +995,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="C+"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={63}
                   />
     </th>  
 
@@ -931,6 +1009,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     placeholder="R7"
                     className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
                     required
+                    tabIndex={64}
                   />
     </th>  
       </tr>
@@ -943,7 +1022,8 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
     {/* BUTTONS */}
 
     <div className="flex flex-row justify-center items-center gap-x-7 py-4">
-    <button              onClick={handleNextStep}
+    <button    
+              // onClick={handleNextStep}
  className="px-10 py-2 shadow-[0px_4px_8px_0px_rgba(184,182,182,0.25)] rounded-[5px] bg-[#159BD6] text-[color:var(--03,#FFF)] text-[16px] font-inter not-italic font-bold leading-[normal] tracking-[0.32px] capitalize">Save & Next</button>
     <button             onClick={handlePrevStep}
  className="border-[#159BD6] px-10 py-2 border-[1px] rounded-[5px] text-[color:var(--01,#159BD6)] text-[16px] font-inter not-italic font-bold leading-[normal] tracking-[0.32px] capitalize">Cancel</button>
