@@ -15,6 +15,65 @@ html {
   box-sizing: border-box;
 }
 
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    text-align: center;
+}
+.outer{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.inner{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim1 2s linear forwards;
+}
+.svgeffect{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim1{
+    100%{
+        stroke-dashoffset:160;
+    }
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset:100;
+    }
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset:236;
+    }
+}
+
+
+
+
+
+
+
+
 *::-webkit-scrollbar {
   width: 7px;
   /* padding:2px 2px; */

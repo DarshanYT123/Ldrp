@@ -18,7 +18,7 @@ function Results() {
             <div className="flex">
             <label
                   for=" Examination"
-                  className="ml-[20px] px-1  py-2 text-[16px]  font-inter font-semibold text-[#1E1E1E] leading-[24px]"
+                  className="ml-[20px] px-1  py-2 text-[16px]  font-Poppins font-semibold text-[#1E1E1E] leading-[24px]"
                 >
                   Examination :{" "}
                 </label>
@@ -40,7 +40,7 @@ function Results() {
             <div className="flex">
             <label
                   for="Semester"
-                  className="ml-[20px] px-1  py-2 text-[16px]  font-inter font-semibold text-[#1E1E1E] leading-[24px]"
+                  className="ml-[20px] px-1  py-2 text-[16px]  font-Poppins font-semibold text-[#1E1E1E] leading-[24px]"
                 >
                   Semester :{" "}
                 </label>

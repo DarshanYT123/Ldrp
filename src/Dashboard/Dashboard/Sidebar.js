@@ -7,6 +7,9 @@ import BasicInfoDashboard from "../BasicInfoDashboard/BasicInfoDashboard";
 import Results from "../Results/Results";
 import Attendance from "../Attendance/Attendance";
 import University from "../University/University";
+import SecondResults from "../Results/SecondResults";
+import Notification from "../Notification/Notification";
+import FeesDetails from "../FeesDetails/FeesDetails"
 // import carditcard from "../../../Admin/images/craditcard.png";
 // import carditcard2 from "../../../Admin/images/craditcard2.png";
 // import bgimage from "../../../Admin/images/bgimage.png";
@@ -96,16 +99,16 @@ const Sidebar = () => {
          <Attendance/>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-              <Results/>
+              <SecondResults/>
         </TabContent>
         <TabContent id="tab4" activeTab={activeTab}>
-        
+        <FeesDetails/>
         </TabContent>
         <TabContent id="tab5" activeTab={activeTab}>
         <University />
         </TabContent>
         <TabContent id="tab6" activeTab={activeTab}>
-        
+          <Notification />
         </TabContent>
       </div>
     </div>
