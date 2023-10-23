@@ -266,7 +266,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   value={studentname}
                   onChange={handleInputChange}
                   onBlur={validateOne}
-                  className="hover:border-[2px] hover:border-[#159BD6] ml-[5px] w-[400px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] ml-[5px] w-[400px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   placeholder="First/Second"
                   tabindex="1"
@@ -288,7 +288,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="DD/MM/YYYY"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[150px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[150px] h-[40px] rounded-[5px] border  border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="2"
                 />
@@ -310,7 +310,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   value={emailId}
                   onChange={handleInputChange}
                  // onBlur={validateOne}
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[400px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[400px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   placeholder="Email Address"
                   tabindex="3"
@@ -332,7 +332,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="DD/MM/YYYY"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[150px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[150px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="4"
                 />
@@ -355,7 +355,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                  // onBlur={validateOne}
                   placeholder=" Caste"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[160px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[160px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="5"
                 />
@@ -376,7 +376,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="Gender"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[160px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[160px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="6"
                 />
@@ -397,7 +397,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="Weight"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[140px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[140px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="7"
                 />
@@ -418,7 +418,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="Height"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[150px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[150px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="8"
                 />
@@ -439,7 +439,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                 value={address}
                   onChange={handleInputChange}
                   onBlur={validateOne}
-                className="hover:border-[2px] hover:border-[#159BD6] resize-none mr-[5rem]  w-[890px] h-[97px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                className="hover:border-[2px] hover:border-[#159BD6] resize-none mr-[5rem]  w-[890px] h-[97px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 placeholder=" Address"
                 required
                 tabIndex="9"
@@ -463,7 +463,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                  // onBlur={validateOne}
                   placeholder="City"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="10"
                 />
@@ -484,7 +484,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="State"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="11"
                 />
@@ -505,7 +505,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   //onBlur={validateOne}
                   placeholder="Pin Code"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="12"
                 />
@@ -528,7 +528,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   value={hobbies}
                   onChange={handleInputChange}
                  // onBlur={validateOne}
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[400px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[400px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   placeholder="Hobbies"
                   tabindex="13"
@@ -577,7 +577,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                 value={sports}
                   onChange={handleInputChange}
                   //onBlur={validateOne}
-                className="hover:border-[2px] hover:border-[#159BD6] resize-none mr-[5rem]  w-[890px] h-[97px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                className="hover:border-[2px] hover:border-[#159BD6] resize-none mr-[5rem]  w-[890px] h-[97px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                 placeholder=" Cricket/Football/Volleyball/Hockey/Other...."
                 required
                 tabIndex="14"
@@ -601,7 +601,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                  // onBlur={validateOne}
                   placeholder="Overall %"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="15"
                 />
@@ -622,7 +622,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                   onBlur={validateOne}
                   placeholder="Overall %"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="16"
                 />
@@ -643,7 +643,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                   onChange={handleInputChange}
                  // onBlur={validateOne}
                   placeholder="Overall %"
-                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                  className="hover:border-[2px] hover:border-[#159BD6] w-[200px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                   required
                   tabindex="17"
                 />
@@ -666,7 +666,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={studentno}
                   onChange={handleInputChange}
                   onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[280px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[280px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder=" Student  No"
                     required
                     tabIndex="18"
@@ -690,7 +690,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={fatherno}
                   onChange={handleInputChange}
                   onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[280px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[280px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder=" Father No:"
                     required
                     tabIndex="19"
@@ -713,7 +713,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={motherno}
                     onChange={handleInputChange}
                     onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px] w-[280px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px] w-[280px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder=" Mother No:"
                     required
                     tabIndex="20"
@@ -738,7 +738,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={fathername}
                   onChange={handleInputChange}
                   //onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[450px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[450px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder="  first/Second"
                     required
                     tabIndex="21"
@@ -761,7 +761,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={foccupation}
                   onChange={handleInputChange}
                   //onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[10px]  w-[364px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[10px]  w-[364px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder=" Occupation"
                     required
                     tabIndex="22"
@@ -786,7 +786,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={mothername}
                   onChange={handleInputChange}
                   //onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[450px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[5px]  w-[450px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder="  first/Second"
                     required
                     tabIndex="23"
@@ -809,7 +809,7 @@ const StudentHistory = ({handleNextStep,handlePrevStep}) => {
                     value={moccupation}
                   onChange={handleInputChange}
                   //onBlur={validateOne}
-                    className="hover:border-[2px] hover:border-[#159BD6] ml-[10px]  w-[364px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF]  p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
+                    className="hover:border-[2px] hover:border-[#159BD6] ml-[10px]  w-[364px] h-[40px] rounded-[5px] border border-[#CBCBCB] bg-[#FFFFFF] font-inter p-3 font-medium text-[16px] leading-[19.36px] tracking-[2%] focus:outline-none"
                     placeholder=" Occupation"
                     required
                     tabIndex="24"

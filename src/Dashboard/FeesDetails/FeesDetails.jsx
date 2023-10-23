@@ -15,7 +15,7 @@ const FeesDetails = () => {
             <div>
               <button
                 type="button"
-                class="text-white text-[16px] font-inter   bg-[#159BD6] rounded-[5px]  font-bold px-14 py-2 mr-2 mb-2 leading-[19.36px] tracking-[2%] capitalize"
+                class="text-white text-[16px] font-inter   bg-[#159BD6] rounded-[5px]  font-bold px-14 py-2.5 mr-2 mb-2 leading-[19.36px] tracking-[2%] capitalize"
               >
                 Upload Result Copy
               </button>
@@ -34,7 +34,7 @@ const FeesDetails = () => {
                 // onChange={handleInputChange}
                 //onBlur={validateOne}
                 tabIndex={1}
-                className="flex flex-row w-[128px] h-[40px]   bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
+                className="flex flex-row w-[128px] h-[40px]   bg-[#E6E6E6] hover:text-[#47A5E4]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
               >
                 <option selected>Semester 1</option>
                 <option value="Semester 1">Semester 1</option>
@@ -61,16 +61,16 @@ const FeesDetails = () => {
                   
                 </tr>
                 <tr className="text-center ">
-                  <th className=" border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className=" border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     amount
                   </th>
-                  <th className="border-r-[1px] w-[170px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px] w-[170px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Status
                   </th>
-                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Payment Method
                   </th>
-                  <th className="border-r-[1px] w-[400px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px] w-[400px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Proof
                   </th>
                 </tr>
@@ -108,16 +108,16 @@ const FeesDetails = () => {
                   
                 </tr>
                 <tr className="text-center ">
-                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     amount
                   </th>
-                  <th className="border-r-[1px] w-[170px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px] w-[170px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Status
                   </th>
-                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Payment Method
                   </th>
-                  <th className="border-r-[1px] w-[400px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px] w-[400px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Proof
                   </th>
                 </tr>
@@ -154,13 +154,13 @@ const FeesDetails = () => {
                   
                 </tr>
                 <tr className="text-center ">
-                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]   py-3  text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     amount
                   </th>
-                  <th className="border-r-[1px] w-[170px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px] w-[170px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Status
                   </th>
-                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
+                  <th className="border-r-[1px]  w-[170px] h-[45px] bg-[#159BD6] rounded-[5px_0px_0px_0px] border-[#47A5E4]   py-3 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">
                     Payment Method
                   </th>
                   <th className="border-r-[1px] w-[400px] h-[45px] bg-[#159BD6] rounded-[0px_0px_0px_0px] border-[#47A5E4]  py-2 text-white text-[16px] font-inter not-italic font-bold leading-[19.36px] tracking-[2%] capitalize">

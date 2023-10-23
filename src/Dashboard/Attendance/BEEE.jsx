@@ -1,16 +1,67 @@
-import React, { useState } from "react";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+// import { BiChevronLeftCircle, BiChevronRightCircle } from "react-icons/bi";
+// import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+// import { RxDotFilled } from 'react-icons/rx';// Import Swiper styles
+
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import {
+  Autoplay,
+  EffectCoverflow,
+  Navigation,
+  Pagination,
+} from "swiper/modules";
 
 const BEEE = ({}) => {
+  const Data = [
+    {
+      text: "1 January 2023 - 1 Feb 2023 ",
+    },
+    {
+        text: "1 Feb 2023 - 1 March 2023 ",
+    },
+    {
+        text: "1 March 2023 - 1 April 2023 ",
+    },
+    {
+        text: "1 April 2023 - 1 May 2023 ",
+    },
+    {
+        text: "1 May 2023 - 1 June 2023 ",
+    },
+    {
+        text: "1 June 2023 - 1 July 2023 ",
+    },
+    {
+        text: "1 July 2023 - 1 Aug 2023 ",
+    },
+    {
+        text: "1 Aug 2023 - 1 Sep 2023 ",
+    },
+    {
+        text: "1 Sep 2023 - 1 Oct 2023 ",
+    },
+    {
+        text: "1 Oct 2023 - 1 Nov 2023 ",
+    },
+    {
+        text: "1 Nov 2023 - 1 Dec 2023 ",
+    },
 
+ ];
   return (
     <>
-      <div className="pt-4 ">
+      <div className="pt-4  ">
       <div className="border-[#47A5E4] border-[2px] rounded-[4px] px-0  ">
-        <div className="relative justify-start flex -top-6 left-4  ">
+        <div className="relative justify-start flex -top-6 left-10  ">
         <h2 className="text-[color:var(--02,#47A5E4)] bg-white text-[20px] font-Poppins px-3  py-2 not-italic font-semibold leading-[normal] tracking-[1.1px]">Lectures</h2>
         </div>
         <div className="flex flex-row gap-x-3 ">
-        <div className=" flex flex-row px-10 gap-x-7">
+        <div className=" flex flex-row px-7 gap-x-7">
             <div className="flex flex-col gap-y-2 pt-4">
                 <div>
                 <h2 className="text-[color:var(--black,#101010)] text-center font-Poppins text-[26px] not-italic font-normal leading-[normal]">Attendance All Over</h2>
@@ -58,12 +109,45 @@ const BEEE = ({}) => {
             </div>
             </div>
             <div className="">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1" height="482" viewBox="0 0 1 482" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1" height="412" viewBox="0 0 1 482" fill="none">
   <path d="M0.5 0.5V481.5" stroke="#BDBDBD" stroke-linecap="round" stroke-dasharray="5 5"/>
 </svg>
 </div>
 <div className="px-5">
 <div className="flex flex-col gap-y-3">
+<div className="max-w-[22rem] ">
+<Swiper
+ modules={[EffectCoverflow, Navigation, Pagination, Autoplay]}
+ navigation={{
+    nextEl: ".button-next-slide",
+    prevEl: ".button-prev-slide",
+  }}
+// className="mySwiper "
+>
+{Data.map((item, index) => (
+    <SwiperSlide key={index}>
+        <div className="  px-11  ">
+    <h2 className="absolute py-2  text-[color:var(--02,#47A5E4)]   text-center text-[18px] not-italic font-semibold leading-[normal] tracking-[0.44px] font-inter ">{item.text}</h2>
+    </div>
+    </SwiperSlide>
+  ))}
+  <div className=" ">
+  <div className="relative  flex flex-row gap-x-[16.5rem] ">
+    <div className=" button-prev-slide  cursor-pointer  ">
+    <button className=" bg-[#16376E]  rounded-[3px_0px_0px_3px]" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none">
+  <path d="M22.4443 10.7916L13.2393 18.5L22.4443 26.2083L22.4443 10.7916Z" fill="white"/>
+</svg></button>
+    </div>
+    <div className="  button-next-slide  cursor-pointer">
+    <button className=" bg-[#16376E] rounded-[0px_3px_3px_0px]  shadow-[0px_4px_12px_0px_rgba(157,157,157,0.18)_inset]"  ><svg xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none">
+    <path d="M15.5557 10.7916L24.7607 18.5L15.5557 26.2083L15.5557 10.7916Z" fill="white"/>
+  </svg></button>
+    </div>
+    </div>
+    </div>
+</Swiper>
+</div>
             <div>
                 <h2 className="text-[color:var(--black,#101010)] text-center text-[16px] font-Poppins not-italic font-semibold leading-[normal] tracking-[0.32px]">Total Lectures Conducted</h2>
                 <h2 className="text-[color:var(--02,#47A5E4)] text-center text-[34px] font-Poppins not-italic font-bold leading-[normal] tracking-[0.68px]">4</h2>

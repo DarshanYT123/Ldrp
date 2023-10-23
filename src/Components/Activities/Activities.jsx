@@ -68,7 +68,7 @@ const Activities = ({ handleNextStep, handlePrevStep }) => {
               //onBlur={validateOne}
               tabIndex={1}
 
-              className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
+              className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6] hover:text-[#47A5E4]  text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
             >
               <option selected>12th</option>
               <option value="12th">12th</option>

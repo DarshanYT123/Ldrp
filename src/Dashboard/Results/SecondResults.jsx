@@ -1,51 +1,44 @@
 import React from "react";
+import TabNavItem from "../TabNavItem/TabNavItem";
+import TabContent from "../TabContent/TabContent";
+import Result from '../Results/Results'
+import ResultSection from "./ResultSection";
 
+// import Examinationdropdown from '../Results/Examinationdropdown'
 const SecondResults = () => {
+  // const [selected, setSelected] = useState("Results")
+
+ 
+
   return (
     <>
-      <div className="absolute top-8 right-0  px-2  py-5 max-h-[700px]  overflow-y-auto bg-white">
-        <div className="flex justify-center  items-center ">
-          <h2 className="text-[color:var(--02,#47A5E4)] text-[20px] font-Raleway not-italic font-bold leading-[normal] tracking-[1.1px]">
-            Results Details
-          </h2>
-        </div>
+      <div className="top-8 right-0 px-4 py-5 max-h-[700px]  overflow-y-auto bg-white">
+        
 
         <form>
-          <div className="flex flex-row gap-x-[5rem] py-5 px-10 items-center justify-center">
+          <div className="flex space-x-[11rem] py-5  items-center justify-center">
             <div>
               <button
                 type="button"
-                class="text-white text-[16px] font-inter   bg-[#159BD6] rounded-[5px]  font-bold px-14 py-2 mr-2 mb-2 leading-[19.36px] tracking-[2%] capitalize"
+                class=" mr-2 text-white text-[16px] font-inter   bg-[#159BD6] rounded-[5px]  font-bold px-10 py-2 mb-2 leading-[19.36px] tracking-[2%] capitalize"
               >
                 Upload Result Copy
               </button>
             </div>
             <div className="flex">
-              <label
-                for=" Examination"
-                className="ml-[20px] font-Poppins px-1  py-2 text-[16px] font-semibold text-[#1E1E1E] leading-[24px]"
-              >
-                Examination :{" "}
-              </label>
-              <select
-                id="12th"
-                name="selectoption"
-                // value={selectoption}
-                // onChange={handleInputChange}
-                //onBlur={validateOne}
-                tabIndex={1}
-                className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
-              >
-                <option selected>Final</option>
-                <option value="Final">Final</option>
-                <option value="Final">Final</option>
-              </select>
+              {/* <ResultSection/> */}
+             
+               {/* <Examinationdropdown selected={selected} setSelected={setSelected} /> */}
+              
             </div>
+            <div className="flex">
+            
+      </div>
 
             <div className="flex">
               <label
                 for=" Examination"
-                className="ml-[20px] px-1  py-2 text-[16px]  font-Poppins font-semibold text-[#1E1E1E] leading-[24px]"
+                className=" px-1  py-2 text-[16px]  font-Poppins font-semibold text-[#1E1E1E] leading-[24px]"
               >
                 Semester :{" "}
               </label>
@@ -56,11 +49,11 @@ const SecondResults = () => {
                 // onChange={handleInputChange}
                 //onBlur={validateOne}
                 tabIndex={1}
-                className=" flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
+                className=" flex flex-row mr-10 w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] hover:text-[#47A5E4] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
               >
                 <option selected>Semester 1</option>
-                <option value="Semester 1">Semester 1</option>
-                <option value="Semester 2">Semester 2</option>
+                <option   value="Semester 1">Semester 1</option>
+                <option  value="Semester 2">Semester 2</option>
                 <option value="Semester 3">Semester 3</option>
                 <option value="Semester 4">Semester 4</option>
                 <option value="Semester 5">Semester 5</option>
@@ -70,7 +63,7 @@ const SecondResults = () => {
             </div>
           </div>
 
-          <div className="flex space-x-10 items-center justify-center ">
+          <div className="flex space-x-2  items-center justify-center">
             <div>
               <div className="py-4 flex items-center justify-center">
                 <table className=" ">
@@ -217,7 +210,7 @@ const SecondResults = () => {
             </div>
             
             <div>
-              <div className="pb-[6rem] ">
+              <div className=" ">
                 <div className="py-2" >
                   <h2 className="text-[color:var(--02,#16376E)] text-[18px] font-inter not-italic font-bold leading-[21.78px] tracking-[2px]">
 
@@ -351,10 +344,10 @@ const SecondResults = () => {
           </div>
 
           {/* =============================== */}
-            <div className="flex items-center justify-center py-10">
+            <div className="flex items-center justify-center px-2 py-2">
             <button
                 type="button"
-                class="text-white text-[16px] font-inter    bg-[#16376E] rounded-[5px]  font-bold px-[26rem] py-2 mr-2 mb-2 leading-[19.36px] tracking-[2%] capitalize"
+                class="text-white text-[16px] font-inter    bg-[#16376E] rounded-[5px]  font-bold w-[100%] py-2 mb-2 leading-[19.36px] tracking-[2%] capitalize"
               >
                Current Semester Performance
               </button>

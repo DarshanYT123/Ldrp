@@ -105,7 +105,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                 //onBlur={validateOne}
                 tabIndex={1}
 
-                className="w-[158px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
+                className="w-[158px] h-[40px]  bg-[#E6E6E6] hover:text-[#159BD6]  text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
               >
                 <option value="sem1" >Sem 1</option>
                 <option value="sem2">Sem 2</option>
@@ -166,7 +166,7 @@ const ExamSheet = ({handlePrevStep,handleNextStep}) => {
                     onChange={handleInputChange}
                     //onBlur={validateOne}
                     placeholder="A+"
-                    className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff]    focus:outline-none"
+                    className="p-3 table-auto1 w-[96px] h-[45px] py-2 border-[1px] border-[#47A5E4] bg-[#fff] hover:text-[#47A5E4]   focus:outline-none"
                     required
                     tabIndex={3}
                   />

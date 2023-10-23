@@ -3,13 +3,9 @@ import React from 'react'
 function Results() {
   return (
     <>
-     <div className='absolute top-8 right-0  px-14  py-5 max-h-[700px]  overflow-y-auto bg-white'>
+     <div className=' top-8 right-0  px-10  py-5 max-h-[700px]  overflow-y-auto bg-white'>
     
-        <div className="flex justify-center  items-center ">
-          <h2 className="text-[color:var(--02,#47A5E4)] text-[20px] font-Raleway not-italic font-bold leading-[normal] tracking-[1.1px]">
-          Results Details
-          </h2>
-        </div>
+       
        
        
         <form>
@@ -29,7 +25,7 @@ function Results() {
               // onChange={handleInputChange}
               //onBlur={validateOne}
               tabIndex={1}
-              className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
+              className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6] hover:text-[#47A5E4]  text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
             >
               <option selected>Midsem</option>
               <option value="Externak">External</option>
@@ -51,7 +47,7 @@ function Results() {
               // onChange={handleInputChange}
               //onBlur={validateOne}
               tabIndex={1}
-              className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6]   text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
+              className="flex flex-row w-[128px] h-[40px]  bg-[#E6E6E6] hover:text-[#47A5E4]  text-center  rounded-[5px] focus:outline-none text-[color:var(--02,#363636)] text-[18px] font-inter not-italic font-medium leading-[normal] tracking-[0.36px] capitalize"
             >
               <option selected>Semester 1</option>
               <option value="Semester 1">Semester 1</option>

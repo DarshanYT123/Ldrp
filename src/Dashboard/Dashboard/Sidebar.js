@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import TabNavItem from "../TabNavItem/TabNavItem";
 import TabContent from "../TabContent/TabContent";
@@ -10,6 +10,7 @@ import University from "../University/University";
 import SecondResults from "../Results/SecondResults";
 import Notification from "../Notification/Notification";
 import FeesDetails from "../FeesDetails/FeesDetails"
+import ResultSection from "../Results/ResultSection"
 // import carditcard from "../../../Admin/images/craditcard.png";
 // import carditcard2 from "../../../Admin/images/craditcard2.png";
 // import bgimage from "../../../Admin/images/bgimage.png";
@@ -99,7 +100,7 @@ const Sidebar = () => {
          <Attendance/>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-              <SecondResults/>
+              <ResultSection />
         </TabContent>
         <TabContent id="tab4" activeTab={activeTab}>
         <FeesDetails/>

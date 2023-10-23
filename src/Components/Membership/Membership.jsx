@@ -286,12 +286,14 @@ const Membership = ({ handleNextStep, handlePrevStep }) => {
         {/* BUTTONS */}
 
         <div className="flex flex-row justify-center items-center gap-x-7">
+          <a href="/dashboard">
           <button
             onClick={handleNextStep}
             className="px-10 py-2 shadow-[0px_4px_8px_0px_rgba(184,182,182,0.25)] rounded-[5px] bg-[#159BD6] text-[color:var(--03,#FFF)] text-[16px] font-inter not-italic font-bold leading-[normal] tracking-[0.32px] capitalize"
           >
             Save & Next
           </button>
+          </a>
           <button
             onClick={handlePrevStep}
             className="border-[#159BD6] px-10 py-2 border-[1px] rounded-[5px] text-[color:var(--01,#159BD6)] text-[16px] font-inter not-italic font-bold leading-[normal] tracking-[0.32px] capitalize"

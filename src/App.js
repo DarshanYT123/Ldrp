@@ -62,6 +62,7 @@ function App() {
       <div>
       <div className="">
       <Navbar />
+  
       </div>
       {/* <div className="py-3 flex justify-end ">
         <h2 className="text-[color:var(--black,#101010)] text-[14px] font-Poppins not-italic font-semibold leading-[normal] tracking-[0.28px] capitalize">Last Login</h2>
