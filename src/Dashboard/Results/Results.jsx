@@ -3,7 +3,7 @@ import React from 'react'
 function Results() {
   return (
     <>
-     <div className=' top-8 right-0  px-10  py-5 max-h-[700px]  overflow-y-auto bg-white'>
+     <div className=' top-[7rem] right-0  px-10  py-5 max-h-[700px]  overflow-y-auto bg-white'>
     
        
        

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import TabNavItem from "../TabNavItem/TabNavItem";
 import TabContent from "../TabContent/TabContent";
@@ -29,7 +30,7 @@ const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("tab1");
 
   return (
-    <div className="">
+    <div className=" relative -top-2">
      <div className="px-2">
      <div className=" rounded-lg  bg-white  w-[240px] h-[729px]  left-0   ">
      <div className="flex items-center justify-center   ">
@@ -47,7 +48,27 @@ const Sidebar = () => {
        </div>
        </a>
              </div>
-             <ul className=" flex flex-col justify-center items-center my-4 space-y-5">
+             <div className=" flex flex-col justify-center items-center my-4 space-y-5">
+             <Link to="/dashboard">
+                <p className={`${activeTab === "Mentoring Form" ? " bg-[#47A5E4] text-white border-transparent cursor-pointer rounded-[6px] text-[16px] font-Poppins  px-12 py-2 not-italic font-bold leading-[normal] tracking-[0.32px] capitalize " : "border-transparent  text-black text-[16px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.32px] capitalize"}`} onClick={() => setActiveTab("Mentoring Form")} >Mentoring Form</p>
+                </Link>
+                <Link to="/attendance">
+                <p className={`${activeTab === "Attendance" ? " bg-[#47A5E4] text-white border-transparent cursor-pointer rounded-[6px] text-[16px] font-Poppins  px-14 py-2 not-italic font-bold leading-[normal] tracking-[0.32px] capitalize " : "border-transparent  text-black text-[16px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.32px] capitalize"}`} onClick={() => setActiveTab("Attendance")} >Attendance</p>
+                </Link>
+                <Link to="/results">
+                <p className={`${activeTab === "Results" ? " bg-[#47A5E4] text-white border-transparent cursor-pointer rounded-[6px] text-[16px] font-Poppins  px-20 py-2 not-italic font-bold leading-[normal] tracking-[0.32px] capitalize " : "border-transparent  text-black text-[16px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.32px] capitalize"}`} onClick={() => setActiveTab("Results")} >Results</p>
+                </Link>
+                <Link to="/fees">
+                <p className={`${activeTab === "Fees Details" ? " bg-[#47A5E4] text-white border-transparent cursor-pointer rounded-[6px] text-[16px] font-Poppins  px-14 py-2 not-italic font-bold leading-[normal] tracking-[0.32px] capitalize " : "border-transparent  text-black text-[16px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.32px] capitalize"}`} onClick={() => setActiveTab("Fees Details")} >Fees Details</p>
+                </Link>
+                <Link to="/university">
+                <p className={`${activeTab === "University" ? " bg-[#47A5E4] text-white border-transparent cursor-pointer rounded-[6px] text-[16px] font-Poppins  px-14 py-2 not-italic font-bold leading-[normal] tracking-[0.32px] capitalize " : "border-transparent  text-black text-[16px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.32px] capitalize"}`} onClick={() => setActiveTab("University")} >University</p>
+                </Link>
+                <Link to="/notification">
+                <p className={`${activeTab === "Notification" ? " bg-[#47A5E4] text-white border-transparent cursor-pointer rounded-[6px] text-[16px] font-Poppins  px-12 py-2 not-italic font-bold leading-[normal] tracking-[0.32px] capitalize " : "border-transparent  text-black text-[16px] font-Poppins not-italic font-normal leading-[normal] tracking-[0.32px] capitalize"}`} onClick={() => setActiveTab("Notification")} >Notification</p>
+                </Link>
+      </div>
+             {/* <ul className=" flex flex-col justify-center items-center my-4 space-y-5">
                       <TabNavItem
           title="Mentoring Form"
           id="tab1"
@@ -84,7 +105,7 @@ const Sidebar = () => {
           activeTab={activeTab}
           setActiveTab={setActiveTab}
         />
-      </ul>
+      </ul> */}
              <div>
             
       </div>

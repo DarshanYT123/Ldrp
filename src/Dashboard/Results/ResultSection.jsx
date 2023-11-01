@@ -17,7 +17,7 @@ const ResultSection = () => {
 
   return (
     <>
-      <div className="absolute top-10 right-0  px-[1.2rem]  py-5 max-h-[700px]  overflow-y-none bg-white  ">
+      <div className="absolute top-[7rem] right-0  px-[1.2rem]  py-5 max-h-[700px]  overflow-y-none bg-white  ">
        
       <div className="flex justify-center  items-center ">
           <h2 className="text-[color:var(--02,#47A5E4)] text-[20px] font-Raleway not-italic font-bold leading-[normal] tracking-[1.1px]">

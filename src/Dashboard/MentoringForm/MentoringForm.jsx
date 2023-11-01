@@ -133,7 +133,7 @@ const MentoringForm = ({handleNextStep}) => {
 
   return (
     <>
-      <div className=" right-0 pr-10  py-5 max-h-[700px]  overflow-y-auto   ">
+      <div className=" right-0 pr-10 top-[7rem] py-5 max-h-[700px]  overflow-y-auto   ">
         <div className="flex justify-center  items-center">
           <h2 className="text-[color:var(--02,#47A5E4)] text-[20px] font-Raleway not-italic font-bold leading-[normal] tracking-[1.1px]">
             Basic Information
